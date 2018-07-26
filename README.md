@@ -2,9 +2,6 @@
 ### A collection of BrightComponents packages for ADR organization of your Laravel app.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/bright-components/adr.svg)](https://packagist.org/packages/bright-components/adr)
-[![Build Status](https://img.shields.io/travis/bright-components/adr/master.svg)](https://travis-ci.org/bright-components/adr)
-[![Quality Score](https://img.shields.io/scrutinizer/g/bright-components/adr.svg)](https://scrutinizer-ci.com/g/bright-components/adr)
-[![Total Downloads](https://img.shields.io/packagist/dt/bright-components/adr.svg)](https://packagist.org/packages/bright-components/adr)
 
 ![Bright Components](https://s3.us-east-2.amazonaws.com/bright-components/bc_large.png "Bright Components")
 
