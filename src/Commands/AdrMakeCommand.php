@@ -56,24 +56,28 @@ class AdrMakeCommand extends Command
             Artisan::call("adr:action", [
                 'name' => $name,
             ]);
+            $this->output->writeln("Action created successfully.");
         }
 
         if ($this->service) {
             Artisan::call("adr:service", [
                 'name' => $name,
             ]);
+            $this->output->writeln("Service created successfully.");
         }
 
         if ($this->responder) {
             Artisan::call("adr:responder", [
                 'name' => $name,
             ]);
+            $this->output->writeln("Responder created successfully.");
         }
 
         if ($this->validator) {
             Artisan::call("adr:validation", [
                 'name' => $name,
             ]);
+            $this->output->writeln("Service validator created successfully.");
         }
 
         exit(0);
