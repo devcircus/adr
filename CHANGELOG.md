@@ -12,3 +12,10 @@ All notable changes to BrightComponents/Adr will be documented in this file
 - Removed src directory.
 - Removed config files for styleci, travis, scrutinizer.
 - Updated composer.json to remove autoloading and package discovery.
+
+## 0.1.2 - 2018-07-27
+
+- Add ```adr:make``` command.
+- Add service provider to register command.
+- Removed config files for styleci, travis, scrutinizer.
+- Updated composer.json to remove autoloading and package discovery.

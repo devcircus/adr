@@ -30,6 +30,21 @@ If you are using an older version of Laravel, add the package service provider t
 ```
 
 ## Usage
+The adr package brings together several other packages from the bright-components namespace, each that adds another layer to the ADR structure. The package itself comes with one command that brings all of the commands from the other packages together. For example, with the bright-components/action package, you can run ```php artisan adr:action StoreComment``` to generate a ```StoreComment`` action. Using the bright-components/responders package, running ```php artisan adr:responder StoreResponder``` will give you the resulting Responder class. The same is true for the "service" package and the "valid" package.
+
+Now, with the "adr" package, you are given a single ```adr:make``` command to generate all of these classes at the same time.
+
+```php artisan adr:make StoreComment``` will produce, according to your configuration settings for each package, a:
+StoreComment action, StoreComment responder, and a StoreComment service.
+
+### Optional Command Options
+The ```adr:make``` command offers several options. By default, with no options, the command will generated the Action, Responder and Service classes. Passing the ```no-action```, ```no-service```, or ```no-responder``` flag, will skip generating that specific class. You can also add the ```valid``` flag to add a validator for the service. So,
+
+```bash
+php artisan adr:make StoreComment --no-responder --valid
+```
+
+will produce a StoreComment action, a StoreComment service and a StoreComment validator.
 // TODO
 
 ### Testing
