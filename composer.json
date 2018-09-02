@@ -22,10 +22,10 @@
     ],
     "require": {
         "php": "^7.1",
-        "bright-components/services": "^0.8.0",
-        "bright-components/actions": "^0.1.0",
-        "bright-components/responders": "^0.1.0",
-        "bright-components/valid": "^0.1.0"
+        "bright-components/services": "^1.0.*@dev",
+        "bright-components/actions": "^1.0.*@dev",
+        "bright-components/responders": "^1.0.*@dev",
+        "bright-components/valid": "^1.0.*@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"
