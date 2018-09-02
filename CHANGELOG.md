@@ -23,3 +23,7 @@ All notable changes to BrightComponents/Adr will be documented in this file
 ## 0.1.3 - 2018-07-28
 
 - Naively add console output to the ```adr:make``` command.
+
+## 1.0.0-beta.1 - 2018-09-02
+
+- First beta release. Features locked.
