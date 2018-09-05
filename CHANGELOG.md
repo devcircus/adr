@@ -30,4 +30,8 @@ All notable changes to BrightComponents/Adr will be documented in this file
 
 ## 1.0.0-beta.1.1 - 2018-09-02
 
+-   Fixed invalid constraints on bright-components packages.
+
+## 1.0.0-beta.1.2 - 2018-09-05
+
 -   Bump required PHP version to ^7.1.3.
