@@ -35,3 +35,7 @@ All notable changes to BrightComponents/Adr will be documented in this file
 ## 1.0.0-beta.1.2 - 2018-09-05
 
 -   Bump required PHP version to ^7.1.3.
+
+## 1.0.0-beta.1.3 - 2018-09-05
+
+-   Fix stub class naming via commands.

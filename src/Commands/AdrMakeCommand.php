@@ -68,7 +68,7 @@ class AdrMakeCommand extends Command
 
         if ($this->responder) {
             Artisan::call("adr:responder", [
-                'name' => $name,
+                'name' => $name.'Responder',
             ]);
             $this->output->writeln("Responder created successfully.");
         }
