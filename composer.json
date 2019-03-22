@@ -1,7 +1,7 @@
 {
     "name": "bright-components/adr",
     "description": "A collection of BrightComponents packages for ADR organization of your Laravel app.",
-    "version": "1.0.0-beta.1.2",
+    "version": "1.0.0-beta.1.3",
     "keywords": [
         "bright-components",
         "adr",
@@ -22,10 +22,10 @@
     ],
     "require": {
         "php": "^7.1.3",
-        "bright-components/services": "1.0.*@dev",
-        "bright-components/actions": "1.0.*@dev",
-        "bright-components/responders": "1.0.*@dev",
-        "bright-components/valid": "1.0.*@dev"
+        "bright-components/services": "dev-master",
+        "bright-components/actions": "dev-master",
+        "bright-components/responders": "dev-master",
+        "bright-components/valid": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"
