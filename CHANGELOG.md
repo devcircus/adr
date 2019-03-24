@@ -39,3 +39,7 @@ All notable changes to BrightComponents/Adr will be documented in this file
 ## 1.0.0-beta.1.3 - 2018-09-05
 
 -   Fix stub class naming via commands.
+
+## 1.0.0 - 2018-03-23
+
+-   Initial stable release.
