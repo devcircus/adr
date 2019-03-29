@@ -47,3 +47,7 @@ All notable changes to BrightComponents/Adr will be documented in this file
 ## 2.0.0 - 2018-03-28
 
 -   Update dependencies. Due to possibility of bc breaks, update package to 2.0.
+
+## 2.0.1 - 2018-03-29
+
+-   Bring all bright-components dependencies to version 2.0.

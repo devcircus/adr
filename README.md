@@ -1,7 +1,7 @@
 # Bright Components - ADR - Action Domain Responder
 ### A collection of BrightComponents packages for ADR organization of your Laravel app.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/bright-components/adr.svg)](https://packagist.org/packages/bright-components/adr)
+[![Latest Stable Version](https://poser.pugx.org/bright-components/adr/v/stable)](https://packagist.org/packages/bright-components/adr)
 
 ![Bright Components](https://s3.us-east-2.amazonaws.com/bright-components/bc_large.png "Bright Components")
 
